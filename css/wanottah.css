@@ -58,7 +58,7 @@ h5
 
 p, label, strong 
 {
-    line-height: 2;
+    line-height: 1.5;
 
     font-size: 16px;
 
@@ -149,30 +149,6 @@ p, label, strong
 }
 
 
-/*.arcade_section
-{
-	margin: 0;
-
-	border-top: 1px solid #ffb320;
-
-	border-bottom: 1px solid #ffb320;
-}
-
-
-.arcade_section h1
-{
-	margin: 0;
-
-	text-align: center;
-
-	text-transform: uppercase;
-
-	background-color: #131313;
-
-	color: white;
-}*/
-
-
 .divided-50
 {
 	height: 50px;
@@ -239,110 +215,6 @@ p, label, strong
 
 	border-radius: 6px;
 }
-
-
-/*.arcade
-{
-	background: url('../img/sections/Berzerk.png') center no-repeat;
-
-	background-color: black;
-}
-
-
-.atari_2600
-{
-	background: url('../img/sections/atari_2600.png') center no-repeat;
-
-	/*background-color: #1c1814;
-
-	background-color: black;
-}
-
-
-.atari_800
-{
-	background: url('../img/sections/atari_800.jpg') center no-repeat;
-
-	background-color: black;
-}
-
-
-.zx81
-{
-	background: url('../img/sections/zx81.jpg') center no-repeat;
-	
-	background-color: black;
-}
-
-
-.zx_spectrum
-{
-	background: url('../img/sections/Spectrum-1.jpg') center no-repeat;
-
-	background-color: black;
-}
-
-
-.commodore_64
-{
-	background: url('../img/sections/commodore_64.jpg') center no-repeat;
-
-	background-color: black;
-}
-
-
-.bbc_model_b
-{
-	background: url('../img/sections/bbc_model_b.jpg') center no-repeat;
-
-	background-color: black;
-}
-
-
-.text_adventure
-{
-	background: url('../img/sections/leather_goddesses.png') center no-repeat;
-
-	background-color: black;
-}
-
-
-.miscellaneous
-{
-	background: url('../img/sections/spacewar.jpg') center no-repeat;
-
-	background-color: black;
-}
-
-
-.unreal
-{
-	background-color: black;
-}
-
-
-.maya
-{
-	background-color: black;
-}
-
-
-.blender
-{
-	background-color: black;
-}
-
-
-.web
-{
-	background-color: black;
-}
-
-
-.blog
-{
-	background-color: black;
-}*/
 
 
 .hero-marketing-text 
@@ -584,6 +456,8 @@ p, label, strong
 .blog_text
 {
 	color: #eee;
+
+	text-align: justify;
 }
 
 
@@ -591,7 +465,15 @@ p, label, strong
 {
 	font-size: 1.8em;
 
-	text-align: left;
+	text-align: justify;
+}
+
+
+.blog-centre
+{
+	width: 50%;
+
+	margin: auto;
 }
 
 
